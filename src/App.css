@@ -1,0 +1,106 @@
+body {
+  background: #2e4c7c;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: #b2b2b2;
+  font-size: 1.5em;
+}
+
+.input{
+  background: 0;
+  border: 1px solid #b2b2b2;
+  color: #b2b2b2;
+  width:300px;
+  padding: 4px;
+}
+
+.btn-add {
+  background: 0;
+  color: #b2b2b2;
+  border: 1px solid #b2b2b2;
+  width: 40px;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.title {
+  color: #7aa7ef;
+}
+
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 5px 0;
+}
+
+.column {
+	flex: 1;
+	&:first-child { margin-left: 0; }
+	&:last-child { margin-right: 0; }
+}
+
+.row {
+  color: #475e82;
+  padding: 20px;
+  margin: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 14px 0px rgba(0,0,0,1);
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,1);
+  transition: transform .2s ease;
+  position: relative;
+}
+
+.row .btn-close {
+  color: #f1f1f1;
+  background: #a30000;
+  position: absolute;
+  padding: 0 6px;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+}
+
+.row .btn-next {
+  background: #08a200;
+  position: absolute;
+  padding: 0 6px;
+  cursor: pointer;
+  bottom: 0;
+  right: 0;
+}
+
+.row .btn-back {
+  background: #007ca1;
+  position: absolute;
+  padding: 0 6px;
+  cursor: pointer;
+  bottom: 0;
+  left: 0;
+}
+
+.arrow-right {
+    border: solid #f1f1f1;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.arrow-left {
+    border: solid #f1f1f1;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
